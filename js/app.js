@@ -10,7 +10,6 @@ video.addEventListener("loadedmetadata", () => {
     console.log(duration);
 });
 
-
 skip.addEventListener("click", () => {
     video.currentTime += 10;
 });

@@ -47,8 +47,3 @@ button {
     height: 5px;
     width: 1%;
 }
-
-.ytp-time-current, .ytp-time-separator, .ytp-time-duration {
-    color: red;
-    background-color: red;
-}
