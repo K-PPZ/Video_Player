@@ -8,8 +8,22 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Video_Player</title>
   </head>
-  
+
   <body>
+    <div id="container">
+      <video id="video" controls>
+        <source src="./img/misterv.mp4" type="video/mp4">
+      </video>
+
+      <div id="container_button">
+        <button id="back">back 10s</button>
+        <button id="skip">skip 10s</button>
+        <button id="reset">reset</button>
+        <div id="barre_fixe">
+          <div id="barre_move"></div>
+        </div>
+      </div>
+    </div>
 
     <script src="js/app.js"></script>
   </body>
